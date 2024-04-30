@@ -35,7 +35,7 @@ const Navbar = () => {
                     Paket
                   </p>
                 </Link>
-                <Link href="/About-Me">
+                <Link href="/paket">
                   {" "}
                   <p className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2">
                     About
