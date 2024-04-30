@@ -19,20 +19,19 @@ const Navbar = () => {
             <div className="flex items-center ">
               <div className="flex-shrink-0">
                 <Link href="/" className="text-[#025a4e] font-bold">
-                  Sebastian Kristiawan
+                  Nama Villa
                 </Link>
               </div>
             </div>
             <div className="hidden md:block font-poppins">
               <div className="ml-4 flex items-center space-x-4">
-              <Link href="https://drive.google.com/u/0/uc?id=19mz8mhAs9_z8dUX764cHhh7S3q0pkPnX&export=download">
                 <button className="border-4 border-[#0a5d4f]  hover:bg-[#0a5d4f] transition duration-500 rounded-lg  w-28 h-10  text-xs hover:text-white text-[#0a5d4f] font-poppins ">
-                  Download CV
+                  Beranda
                 </button>
-                </Link>
+                
                 <Link href="/">
                   <p className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2">
-                    Home
+                    Paket
                   </p>
                 </Link>
                 <Link href="/About-Me">
@@ -44,8 +43,8 @@ const Navbar = () => {
                 <Link
                   href="/Project"
                   className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2"
-                 >
-                    Project
+                >
+                    Riwayat
                   </Link>
                   
                 

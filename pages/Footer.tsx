@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="">
           <div>
           <h1 className="text-2xl font-bold mt-3 md:mt-0 md:text-left">
-              Sebastian
+              Villa
             </h1>
             <p className="text-sm max-w-xs text-justify md:text-left">
               A beginner front end dev that willing to learn something new and not afraid of failing
