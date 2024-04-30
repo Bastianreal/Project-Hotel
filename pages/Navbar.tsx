@@ -30,23 +30,22 @@ const Navbar = () => {
                     Beranda
                   </p>
                 </Link>
-                <Link href="/">
+                <Link href="/paket">
                   <p className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2">
                     Paket
                   </p>
                 </Link>
-                <Link href="/paket">
+                <Link
+                  href="/Reservasi"
+                  className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2">
+                    Reservasi
+                  </Link>
+                <Link href="/">
                   {" "}
                   <p className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2">
                     About
                   </p>
                 </Link>
-                <Link
-                  href="/Project"
-                  className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2"
-                >
-                    Riwayat
-                  </Link>
                   
                 
               </div>
