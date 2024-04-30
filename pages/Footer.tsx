@@ -12,13 +12,14 @@ const Footer = () => {
               Villa
             </h1>
             <p className="text-sm max-w-xs text-justify md:text-left">
-            Villa merupakan tempat tinggal bersifat sementara yang digunakan saat berlibur dan rekreasi. Villa digunakan sebagai tempat peristirahatan.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, architecto atque dolor libero eaque delectus!
             </p>
+            <br/>
             <h1 className="text-2xl font-bold mt-3 md:mt-0 md:text-left">
               Social Media
             </h1>
             <p className="text-sm max-w-xs text-justify md:text-left">
-            Villa merupakan tempat tinggal bersifat sementara yang digunakan saat berlibur dan rekreasi. Villa digunakan sebagai tempat peristirahatan.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, architecto atque dolor libero eaque delectus!
             </p>
           <div className="">
           <div className="mt-3 flex">

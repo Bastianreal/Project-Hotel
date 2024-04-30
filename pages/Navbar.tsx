@@ -25,10 +25,11 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block font-poppins">
               <div className="ml-4 flex items-center space-x-4">
-                <button className="border-4 border-[#0a5d4f]  hover:bg-[#0a5d4f] transition duration-500 rounded-lg  w-28 h-10  text-xs hover:text-white text-[#0a5d4f] font-poppins ">
-                  Beranda
-                </button>
-                
+              <Link href="/">
+                  <p className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2">
+                    Beranda
+                  </p>
+                </Link>
                 <Link href="/">
                   <p className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2">
                     Paket
