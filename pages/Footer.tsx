@@ -12,8 +12,14 @@ const Footer = () => {
               Villa
             </h1>
             <p className="text-sm max-w-xs text-justify md:text-left">
-              A beginner front end dev that willing to learn something new and not afraid of failing
-            </p>         
+            Villa merupakan tempat tinggal bersifat sementara yang digunakan saat berlibur dan rekreasi. Villa digunakan sebagai tempat peristirahatan.
+            </p>
+            <h1 className="text-2xl font-bold mt-3 md:mt-0 md:text-left">
+              Social Media
+            </h1>
+            <p className="text-sm max-w-xs text-justify md:text-left">
+            Villa merupakan tempat tinggal bersifat sementara yang digunakan saat berlibur dan rekreasi. Villa digunakan sebagai tempat peristirahatan.
+            </p>
           <div className="">
           <div className="mt-3 flex">
               {/* <Image src={house} alt="House"></Image>
@@ -34,15 +40,6 @@ const Footer = () => {
           <div className="md:text-right ">
             <h1 className="text-2xl font-bold">Social Media</h1>
             <div className="flex  space-x-2">
-              {/* <Link href="https://www.instagram.com/bsttian_?igshid=YTQwZjQ0NmI0OA">
-                <Image className="md:ml-48" src={instagram} alt="instagram"></Image>
-              </Link>
-              <Link href="https://www.youtube.com/@zelfix4938">
-                <Image className="" src={youtube} alt="instagram"></Image>
-              </Link>
-              <Link href="https://github.com/Bastianreal">
-                <Image className='' src={github} alt="instagram"></Image>
-              </Link> */}
               </div>
             </div>
           </div>
@@ -50,7 +47,7 @@ const Footer = () => {
       </div>
       <hr className="border-white opacity-60 mt-1"></hr>
       <p className="text-sm opacity-60 flex flex-col items-center justify-center mt-2 pb-2 ">
-        Copyright Sebastian 2023
+        Copyright by Kelompok II 2023
       </p>
     </footer>
   );
