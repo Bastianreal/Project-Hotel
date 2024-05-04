@@ -43,8 +43,12 @@ const Footer = () => {
           <h1 className="text-2xl font-bold mt-3 md:mt-0 md:text-left">
               Team Work
             </h1>
-            <p className="text-sm max-w-xs text-justify md:text-left">
-            
+            <p className="list-none text-1xl max-w-xs text-justify md:text-left">
+            <li>I Kadek Satrya Mahesastika | Back End</li>
+            <li>I Made Dio Kartiana Putra | Back End</li>
+            <li>I Putu Rangga Sanny Saputra | Database</li>
+            <li>I Putu Wika Dinata | Front End</li>
+            <li>Sebastian Herben Satrio Kristiawan | Front End</li>
             </p>
           </div>
             </div>

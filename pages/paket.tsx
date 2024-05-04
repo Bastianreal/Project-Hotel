@@ -8,13 +8,39 @@ export default function Paket() {
 
 <div className="w-full md:h-[90vh] h-[85vh] overflow-hidden relative"
       style={{
-        backgroundImage: `url(${Background.src})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}>
-</div>
 
-</>
+<div className=" flex justify-evenly">
+
+  <div className="rounded-2xl w-2/12 h-72  bg-white text-black">
+    <p>
+      Test
+    </p>
+  </div>
+
+  <div className="rounded-2xl w-2/12 h-72  bg-white text-black">
+    <p>
+      Test
+    </p>
+  </div>
+
+  <div className="rounded-2xl w-2/12 h-72  bg-white text-black">
+    <p>
+      Test
+    </p>
+  </div>
+
+  <div className="rounded-2xl w-2/12 h-72  bg-white text-black">
+    <p>
+      Test
+    </p>
+  </div>
+
+</div>
+</div>
+</> 
   );
 }
