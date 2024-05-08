@@ -1,4 +1,3 @@
-"use client";
 import { useHtmlContext } from "next/dist/shared/lib/html-context.shared-runtime";
 import React, { useState } from "react";
 import Link from "next/link";
@@ -13,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-transparent z-30">
+      <nav className="bg-[#ede7de] z-30">
         <div className="max-m-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center ">
@@ -35,11 +34,6 @@ const Navbar = () => {
                     Paket
                   </p>
                 </Link>
-                <Link
-                  href="/Reservasi"
-                  className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2">
-                    Reservasi
-                  </Link>
                 <Link href="/">
                   {" "}
                   <p className="text-[#025a4e] hover:bg-[#0a5d4f] hover:text-white rounded-lg transition duration-500 p-2">
@@ -106,23 +100,18 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                href="About-Me"
+                href="/"
                 className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
               >
                 About
               </Link>
               <Link
-                href="Project"
+                href="/paket"
                 className="text-white block hover:bg-[#ffffff] hover:text-black rounded-lg transition duration-500 p-2"
                 onClick={toggleNavbar}
               >
-                Project
+                Paket
               </Link>
-              <Link href="https://drive.google.com/u/0/uc?id=19mz8mhAs9_z8dUX764cHhh7S3q0pkPnX&export=download">
-                <button className="mt-2 border-4 border-[#ede7de]  hover:bg-[#ede7de] transition duration-500 rounded-lg  w-28 h-10  text-xs hover:text-black text-[#ffffff] font-poppins ">
-                  Download CV
-                </button>
-                </Link>
             </div>
           </div>
           </div>
